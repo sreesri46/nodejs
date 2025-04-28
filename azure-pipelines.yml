@@ -35,9 +35,9 @@ steps:
   inputs:
     PathtoPublish: '$(build.artifactstagingdirectory)'
   condition: succeededOrFailed()
-- task: AzureCLI@2
-  inputs:
-    azureSubscription: 'sree az devops(711a83e5-6fa7-4228-b0b4-9ac638047d04)'
-    scriptType: 'bash'
-    scriptLocation: 'scriptPath'
-    scriptPath: '/CLI/azlogin.sh'
+# - task: AzureCLI@2
+#   inputs:
+#     azureSubscription: 'sree az devops(711a83e5-6fa7-4228-b0b4-9ac638047d04)'
+#     scriptType: 'bash'
+#     scriptLocation: 'scriptPath'
+#     scriptPath: '/CLI/azlogin.sh'
