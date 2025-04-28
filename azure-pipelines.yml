@@ -37,7 +37,7 @@ steps:
   condition: succeededOrFailed()
 - task: AzureCLI@2
   inputs:
-    azureSubscription: 'Vinc-Sub-Dev(54402ec2-6239-40f7-af6a-0975ee0d3664)'
+    azureSubscription: 'sree az devops(711a83e5-6fa7-4228-b0b4-9ac638047d04)'
     scriptType: 'bash'
     scriptLocation: 'scriptPath'
     scriptPath: '/CLI/azlogin.sh'
